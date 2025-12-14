@@ -1,0 +1,33 @@
+.checkout {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.total,
+.discount {
+  width: 100%;
+  text-align: center;
+}
+.total {
+  color: var(--color-text);
+  text-decoration: line-through;
+}
+.discount {
+  font-weight: 800;
+  color: var(--color-header);
+}
+.checkout-button {
+  padding: 10px 30px;
+  color: white;
+  background-color: var(--color-danger);
+  margin: 20px auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: -212px;
+  transform: translateX(-50%);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

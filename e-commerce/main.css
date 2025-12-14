@@ -1,0 +1,33 @@
+@import url("./assets/vairables.css");
+@import url("./modules/main-header/main-header.css");
+@import url("./modules/logo/logo.css");
+@import url("./modules/container/container.css");
+@import url("./modules/navbar/navbar.css");
+@import url("./modules/burger/burger.css");
+@import url("./modules/banner/banner.css");
+@import url("./modules/card/card.css");
+@import url("./modules/slider/slider.css");
+@import url("./modules/grid/grid.css");
+@import url("./modules/main-footer/main-footer.css");
+@import url("./modules/search-results/search-result.css");
+@import url("./modules/single-product/single-product.css");
+@import url("./modules/cart/cart.css");
+@import url("./modules/checkout/checkout.css");
+@import url("./modules/discount/discount.css");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

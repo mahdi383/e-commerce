@@ -1,0 +1,15 @@
+.card-discount {
+  width: 135px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: rgb(from var(--color-danger) r g b / 0.8);
+  position: absolute;
+  right: -10px;
+  top: 0;
+  z-index: 20;
+  border-radius: 5px;
+  padding: var(--space-6);
+  font-size: small;
+}

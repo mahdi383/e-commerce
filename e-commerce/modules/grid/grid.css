@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  height: 300px;
+}
+.grid-samsung {
+  grid-area: 1 / 1 / 6 / 3;
+  background-image: url("../../assets/brand-images/samsung-brand.jpg");
+}
+.grid-google {
+  grid-area: 1 / 3 / 3 / 6;
+  background-image: url("../../assets/brand-images/google-brand.jpg");
+}
+.grid-apple {
+  grid-area: 3 / 3 / 6 / 6;
+  background-image: url("../../assets/brand-images/apple-brand.webp");
+}
+.grid-text {
+  color: white;
+  margin: 50px auto;
+  width: fit-content;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.209);
+  border-radius: 5px;
+  padding: var(--space-5);
+}
+
+.grid div {
+  transform: scale(0.8);
+  transition: transform 500ms ease-in-out;
+  cursor: pointer;
+}
+.grid div:hover {
+  transform: scale(1);
+}

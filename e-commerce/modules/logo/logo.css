@@ -1,0 +1,8 @@
+.logo {
+  background-image: url("../../assets/logo-no-background.png");
+  width: var(--width-100);
+  height: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

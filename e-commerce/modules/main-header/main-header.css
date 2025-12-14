@@ -1,0 +1,8 @@
+.main-header {
+  border-bottom: 2px solid var(--color-primary);
+  height: 60px;
+  width: 100%;
+  direction: flex;
+  justify-content: space-between;
+  align-items: center;
+}

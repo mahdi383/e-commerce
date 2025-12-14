@@ -1,0 +1,33 @@
+.single-product-wraper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--space-10);
+  position: relative;
+}
+.single-product {
+  height: 100%;
+}
+.single-product-button {
+  background-color: var(--color-danger);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  padding: var(--space-10);
+  cursor: pointer;
+}
+.single-product-price-discount {
+  text-decoration-line: line-through;
+  position: relative;
+  font-weight: 500;
+}
+.single-product-discount {
+  position: absolute;
+  color: var(--color-danger);
+  top: 0%;
+  font-size: small;
+}
+.single-product-slider {
+  margin: 50px 0;
+}
